@@ -1,0 +1,91 @@
+{
+ "properties": {
+  "displayName": "EGL Tag Initiative",
+  "policyType": "Custom",
+  "description": "Require Mandatory Tags for RG creation: CostCentre, Owner, Support, Business, Environment, Application and ManagedBy",
+  "metadata": {
+   "category": "Tags",
+   "createdBy": "6891e4ac-cdcd-46b5-a348-6615f1d26143",
+   "createdOn": "2020-11-27T00:00:19.6917539Z",
+   "updatedBy": "6891e4ac-cdcd-46b5-a348-6615f1d26143",
+   "updatedOn": "2020-11-27T00:05:43.9386469Z"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Require a \"CostCentre\" tag on resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/94fd9d0a-7823-48d8-be50-0c6559650cc9/providers/Microsoft.Authorization/policyDefinitions/2a4bb742-d0e6-4b98-a540-adf20b68ea27",
+    "parameters": {
+     "tagName": {
+      "value": "CostCentre"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Require a \"Application\" tag on resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/94fd9d0a-7823-48d8-be50-0c6559650cc9/providers/Microsoft.Authorization/policyDefinitions/2a4bb742-d0e6-4b98-a540-adf20b68ea37",
+    "parameters": {
+     "tagName": {
+      "value": "Application"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Require a \"ManagedBy\" tag on resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/94fd9d0a-7823-48d8-be50-0c6559650cc9/providers/Microsoft.Authorization/policyDefinitions/2a4bb742-d0e6-4b98-a540-adf20b68ea47",
+    "parameters": {
+     "tagName": {
+      "value": "ManagedBy"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Require a \"Environment\" tag on resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/94fd9d0a-7823-48d8-be50-0c6559650cc9/providers/Microsoft.Authorization/policyDefinitions/2a4bb742-d0e6-4b98-a540-adf20b68ea57",
+    "parameters": {
+     "tagName": {
+      "value": "Environment"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Require a \"Owner\" tag on resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/94fd9d0a-7823-48d8-be50-0c6559650cc9/providers/Microsoft.Authorization/policyDefinitions/2a4bb742-d0e6-4b98-a540-adf20b68ea67",
+    "parameters": {
+     "tagName": {
+      "value": "Owner"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Require a \"Support\" tag on resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/94fd9d0a-7823-48d8-be50-0c6559650cc9/providers/Microsoft.Authorization/policyDefinitions/2a4bb742-d0e6-4b98-a540-adf20b68ea77",
+    "parameters": {
+     "tagName": {
+      "value": "Support"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Require a \"Business\" tag on resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/94fd9d0a-7823-48d8-be50-0c6559650cc9/providers/Microsoft.Authorization/policyDefinitions/2a4bb742-d0e6-4b98-a540-adf20b68ea87",
+    "parameters": {
+     "tagName": {
+      "value": "Business"
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/94fd9d0a-7823-48d8-be50-0c6559650cc9/providers/Microsoft.Authorization/policySetDefinitions/a55444c3839f4f6eaac27cbf",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "a55444c3839f4f6eaac27cbf"
+}
